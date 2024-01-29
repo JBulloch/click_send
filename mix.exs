@@ -59,8 +59,8 @@ defmodule ClickSend.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 1.6"},
-      {:poison, "~> 3.0"},
+      {:httpoison, "~> 2.2"},
+      {:poison, "~> 5.0"},
 
       {:ex_doc, ">= 0.0.0", only: :dev},
     ]
